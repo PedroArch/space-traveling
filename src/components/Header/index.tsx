@@ -8,7 +8,9 @@ export default function Header() {
   return (
     <header className={styles.cointainer}>
       <Link href="/">
-        <img src="./logo.svg" alt="logo" />
+        <a>
+          <img src="/logo.svg" alt="logo" />
+        </a>
       </Link>
     </header>
   );
